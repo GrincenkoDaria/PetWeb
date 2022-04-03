@@ -1,0 +1,81 @@
+body{
+	margin: auto;
+
+}
+
+h2, p {
+	display: flex;
+	margin: 0 auto;
+	padding-top:30px;
+	padding-bottom:20px;
+	max-width: 50%;
+	font-family: "Atlas Grotesk Web",sans-serif;
+	
+  justify-content: center;
+}
+p {
+	font-size: 25px;
+	font-weight:200;
+}
+h2 {
+	font-size: 45px;
+	font-weight:1000;
+}
+.hlava {
+	min-width: 80%;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 40px;
+
+}
+
+footer, nav{
+	background-color: #615399;
+	min-height: 80px;
+	margin: auto;
+
+}
+footer{
+	margin-top: 40px;
+}
+.navbut {
+	color: white;
+	background-color: #190666;
+	padding: 10px 24px;
+	float: right;	
+	margin-left: 10px;
+	margin-bottom: 20px;
+	border: none;
+	padding: 15px 32px;
+	font-size: 16px;
+
+}
+.navimg {
+	margin: 10px 24px;
+	max-width: 10%;
+	min-width: 200px;
+	max-height: 70px;
+	border-radius: 10px;
+}
+
+.foot1 {
+	color: white;
+	padding-top: 50px;
+	padding-right: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	float: right;
+	font-size: 20px;
+
+}
+
+
+::-webkit-scrollbar {
+	background-color: #097770 #79cbb8 #500472 #615399;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+  background: linear-gradient(180deg, #8fb3f5, #9279f7);
+}
+
