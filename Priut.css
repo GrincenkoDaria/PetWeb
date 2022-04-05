@@ -254,6 +254,10 @@ footer p {
   to {opacity: 1}
 }
 
+.fade img {
+	width: 100%;
+}
+
 .help{
 	min-height: 500px;
 	height: 100%;
@@ -301,3 +305,35 @@ footer p {
 	position: absolute;
 	margin-bottom: 0px;
 }
+
+#pet1 img, #pet2 img{
+	width: 45%;
+	max-width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
