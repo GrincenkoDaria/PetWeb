@@ -258,47 +258,6 @@ footer p {
 	width: 100%;
 }
 
-.help{
-	min-height: 500px;
-	height: 100%;
-
-}
-
-
-
-.helpbut {
-	color: white;
-	background-color: #332668;
-	text-decoration: none;
-
-	font-size: 60px;
-
-	position: absolute;
-
-	
-
-}
-
-
-
-
-
-#help1 {
-
-}
-
-
-
-.helpbut:nth-of-type(even) {
-	background-color: #332668;
-}
-
-.helpbut:focus {
-  outline: none;
-  color: #fff;
-	background-color: #857f9c;
-}
-
 
 
 #footer{
@@ -314,14 +273,22 @@ footer p {
 
 
 .projekt{
-	font-size: 35px;
+	font-size: 37px;
 }
 
 
+.projektimg{
+	width: 500px;
+}
 
+.zobimg{
 
+	max-height: 400px;
+}
 
-
+.pomimg{
+	width: 300px;
+}
 
 
 
