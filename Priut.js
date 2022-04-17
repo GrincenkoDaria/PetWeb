@@ -24,3 +24,28 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+
+function sizePic() {
+ size = document.getElementById("size").value;
+ img = document.getElementById("pic");
+ img.width = 60 + 20*size;
+}
+function NumMoney() {
+  num = document.getElementById("num").value;
+  print(num)
+  img = document.getElementById("money");
+  money.walue = 10*num;
+ }
+ 
+
+
+
+
+
+
+
+
+
+ 

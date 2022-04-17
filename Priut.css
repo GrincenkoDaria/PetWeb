@@ -299,7 +299,9 @@ footer p {
 }
 
 
-
+body{
+	cursor: url(img/img.png), auto;
+}
 
 
 
