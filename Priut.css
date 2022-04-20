@@ -39,7 +39,7 @@ ul {
 
 footer, header{
 	background-color: #615399;
-	min-height: 145px;
+
 	margin: auto;
 	min-width: 560px;
 
@@ -64,14 +64,12 @@ footer{
 	width: 10%;
 	max-width: 160px;
 	min-width: 80px;
-	margin-left: 10px;
-
 	text-decoration: none;
-	margin-top: 5px;
-	border: none;
-	font-size: 21px;
+	font-size: 21.3px;
 	display: inline-block;
+	margin-top: 2px;
 	float: right;
+	height: 60px;
 
 
 }
@@ -92,9 +90,7 @@ li {
 	list-style-type: none; 
  }
 
-#butbut{
-	margin-right: 20px;
-}
+
 .navimg {
 	margin: 5px 24px;
 	min-height: 5%;
@@ -278,7 +274,7 @@ footer p {
 
 
 .projektimg{
-	width: 500px;
+	width: 350px;
 }
 
 .zobimg{
@@ -296,7 +292,20 @@ footer p {
 #footimg{
 	width: 130px;
 	margin-left: 40%;
+	margin-top: 20px;
 }
+
+
+
+
+
+tr{
+	width: 100px;
+}
+
+
+
+
 
 
 body{
