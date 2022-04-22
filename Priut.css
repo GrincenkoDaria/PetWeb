@@ -58,9 +58,7 @@ footer{
 
 	color: white;
 	background-color: #332668;
-	padding:8px ;
-
-	float: right;	
+	margin-right: 5px;
 	width: 10%;
 	max-width: 160px;
 	min-width: 80px;
@@ -73,7 +71,26 @@ footer{
 
 
 }
+.zobbut{
+	color: white;
+	margin-right: 5px;
+	width: 10%;
+	max-width: 160px;
+	min-width: 80px;
+	text-decoration: none;
+	font-size: 21.3px;
+	display: inline-block;
+	margin-top: 2px;
+	float: right;
+	height: 60px;
+	background-color: #bdadc4;
 
+}
+
+.zobbut:nth-of-type(even) {
+	background-color: #bdadc4;
+
+}
 .navbut:nth-of-type(even) {
 	background-color: #332668;
 }
@@ -81,7 +98,12 @@ footer{
 .navbut:focus {
   outline: none;
   color: #fff;
-	background-color: #857f9c;
+	background-color: #bdadc4;
+}
+.zobbut:focus {
+  outline: none;
+  color: #fff;
+	background-color: #332668;
 }
 
 
