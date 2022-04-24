@@ -2,13 +2,14 @@
 <html lang="slk">
 	<head>
 		<title>Naš dom</title>
-		<link rel="stylesheet" href="./Priut.css">
 		<link rel="stylesheet" href="./Stile.css">
+		<link rel="stylesheet" href="./Priut.css">
+
 		<link class="titleimg" rel="shortcut icon" href="Foto/62341234cdb715fd492c8a286966.jpg" type="image/x-icon">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		</head>
-	<script src="Priut.js"></script>
+	<script src="Domzvr.js"></script>
 <body >
 	
 	<header>
@@ -23,13 +24,18 @@
 
 
 
-
+	<select name="select"> 
+		<option value="all" selected>Všetky zvieratá</option>
+		<option value="dog" >Iba psy</option>
+		<option value="cat">Iba mačky</option>
+		<option value="other">Iné zvieratá</option>
+	</select>
 
 	<a href="ZobZv.html" class="zobbut">  ❤ Chcem si ho vziať  </a> 
 	<div class="Pet">
 		<div id="pet1" class="group">
-			<span class="Fotopet1" id="d1_1"><img src="Pet/černhneddog2.webp" alt=""></span>
-			<span class="Ppet1"id="d1_2" ><p>Mladá a veľmi aktívna psíčka Nivina. <br>
+			<div class="Fotopet1" id="d1_1"><img src="Pet/černhneddog2.webp" class="Fotopet" alt=""></div>
+			<div class="Ppet1"id="d1_2" ><p>Mladá a veľmi aktívna psíčka Nivina. <br>
 				Zaočkovaná a úplne čistá. 
 			 Je veľmi poslušná a vie veľa povelov. Vhodné pre rodiny s deťmi.
 			 <br>
@@ -37,7 +43,7 @@
 			 Pohlavie: dievča  <br>
 			 Hmotnosť: 16,5 kg  <br>
 			 Plemeno: Stredne veľké zmiešané plemeno <br>
-			 Nesterilizované</p></span>
+			 Nesterilizované</p></div>
 		</div>
 
 
@@ -51,12 +57,12 @@
 				Hmotnosť: 9 kg <br>
 				Plemeno: žiadne plemeno <br>
 				</p></div>
-				<div class="Fotopet2" id="d2_1"><img src="Pet/ryžcat1.webp" alt="" ></div>
+				<div class="Fotopet2" id="d2_1"><img src="Pet/ryžcat1.webp" class="Fotopet" alt="" ></div>
 		</div>
 
 
 		<div id="pet1" class="group">
-			<div class="Fotopet1" id="d3_1"><img src="Pet/hum1.jpg" alt=""></div>
+			<div class="Fotopet1" id="d3_1"><img src="Pet/hum1.jpg" class="Fotopet" alt=""></div>
 			<div class="Ppet1"id="d3_2" ><p>Je to len náš rodinný škrečok. Chce byť hviezda! <br>
 				Nechceme, aby sa rozčuľoval.
 			 <br>
@@ -79,12 +85,12 @@
 				Hmotnosť: 8 kg <br>
 				Plemeno: žiadne plemeno malý pes <br>
 				</p></div>
-				<div class="Fotopet2" id="d4_1"><img src="Pet/ryždog2.webp" alt=""></div>
+				<div class="Fotopet2" id="d4_1"><img src="Pet/ryždog2.webp" class="Fotopet" alt=""></div>
 		</div>
 
 
 		<div id="pet1" class="group">
-			<div class="Fotopet1" id="d5_1"><img src="Pet/hneddog2.webp" alt=""></div>
+			<div class="Fotopet1" id="d5_1"><img src="Pet/hneddog2.webp" class="Fotopet" alt=""></div>
 			<div class="Ppet1"id="d5_2" ><p>Toto je pes Brúk. <br>
 				Veselý psík. Zaočkované a úplne čisté
 				<br>
@@ -98,7 +104,7 @@
 
 		<div id="pet2" class="group">
 			
-			<div class="Ppet2"id="d6_2" ><p> Toto je holubica Anton. <br>
+			<div class="Ppet2"id="d6_2" ><p> Toto je holub Anton. <br>
 				Potreba komunikovať s osobou, už sa nebude môcť vrátiť do prírody 
 				<br>
 				Vek: menej ako rok <br>
@@ -106,11 +112,11 @@
 				Hmotnosť: 0,24 kg <br>
 				Plemeno: Skalný holub<br>
 				</p></div>
-				<div class="Fotopet2" id="d6_1"><img src="Pet/vtak.jpg" alt=""></div>
+				<div class="Fotopet2" id="d6_1"><img src="Pet/br.jpg" class="Fotopet" alt=""></div>
 		</div>
 
 		<div id="pet1" class="group">
-			<div class="Fotopet1" id="d7_1"><img src="Pet/serbelcat1.webp" alt=""></div>
+			<div class="Fotopet1" id="d7_1"><img src="Pet/serbelcat1.webp" class="Fotopet" alt=""></div>
 			<div class="Ppet1"id="d7_2" ><p>Toto je mačka Millie. <br>
 				Roztomilé mladé mačiatko so zaujímavou farbou. Zaočkovaná a úplne čistá.
 				<br>
@@ -131,7 +137,7 @@
 				Hmotnosť: 3 kg <br>
 				Plemeno: žiadne plemeno <br> 
 				</p></div>
-				<div class="Fotopet2" id="d8_1">	<img src="Pet/černžltcat1.webp" alt=""></div>
+				<div class="Fotopet2" id="d8_1">	<img src="Pet/černžltcat1.webp" class="Fotopet" alt=""></div>
 		</div>
 
 	</div>
@@ -143,7 +149,7 @@
 
 
 
-
+	<div class="petn"> <p class="petnn">tieto a mnohé ďalšie zvieratká na vás čakajú v našom útulku....</p></div>
 	<div>
 	<footer>
 		<ul class="cont">
@@ -160,6 +166,9 @@
 	
 
 	
-	
+<a href="#" class="Top"><img src="Foto/Hore.png" alt=""></a>
+
 </body>
+
+
 </html>

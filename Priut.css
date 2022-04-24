@@ -1,3 +1,4 @@
+
 body{
 	margin: 0;
   padding: 0;
@@ -144,6 +145,11 @@ li {
 	border-radius: 10px;
   background: linear-gradient(180deg, #8fb3f5, #9279f7);
 }
+  .Top {
+	position: fixed;
+	right: 1%;
+	bottom: 20px;
+   }
 
 .cont{
 	list-style-type: none;
@@ -283,10 +289,6 @@ footer p {
 	margin-bottom: 0px;
 }
 
-#pet1 img, #pet2 img{
-	width: 45%;
-	max-width: 400px;
-}
 
 
 
@@ -299,10 +301,6 @@ footer p {
 	width: 350px;
 }
 
-.zobimg{
-
-	max-height: 400px;
-}
 
 .pomimg{
 	width: 300px;
