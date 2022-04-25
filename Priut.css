@@ -1,3 +1,6 @@
+*{
+	cursor:url('img/img.png'),pointer;
+}
 
 body{
 	margin: 0;
@@ -14,6 +17,10 @@ h2, p {
 	font-family: "Atlas Grotesk Web",sans-serif;
 	
   justify-content: center;
+}
+h1,h2,p{
+	cursor:  text;
+
 }
 p {
 	font-size: 26px;
@@ -328,9 +335,7 @@ tr{
 
 
 
-body{
-	cursor: url(img/img.png), auto;
-}
+
 
 
 

@@ -61,18 +61,18 @@
 	clear: both;
 	*zoom: 1;
 }
-.Fotopet1 {
-	float: left;
-	width: 70%;
+.Fotopet3 {
+	height: 30%;
+	width: 90%;
 }
-.Ppet1 {
-	float: right;
+.Ppet3 {
+
 	width: 60%;
 }
 
 
-.Fotopet{
-	width: 40%;
+.Fotopet4{
+	width: 80%;
 }
 
 
@@ -84,4 +84,12 @@
 
 .petnn{
 	margin: auto;
+}
+
+.zobimg{
+	width: 60%;
+}
+
+#zobimg{
+	height: 30%;
 }
