@@ -4,13 +4,23 @@
 	border-radius: 10px;
   border: solid 5px #cccad2c6;
 }
+
+.butpomoc{
+  color: #fff;
+  background-color: #7700bb;
+  width: 100px;
+  padding: 10px;
+  font-size: 20px;
+}
 .minmoney{
 	background-color: #b4b1bbc6;
 	border-radius: 0px 0px 5px 5px;
 	width: 100%;
 }
 .pomimg{
-	width: 30%;
+	width: 15%;
+  min-width: 50px;
+  margin-left:70%;;
 }
 input[type=range] {
   height: 20px;
@@ -43,7 +53,6 @@ input[type=range]::-moz-range-track {
   width: 100%;
   height: 16px;
   cursor: pointer;
-  animate: 0.2s;
   box-shadow: 2px 2px 3px #000000;
   background: #BDADC4;
   border-radius: 17px;
@@ -99,15 +108,34 @@ input[type=range]:focus::-ms-fill-upper {
 
 input[type="text"]{
 
-	width: 60px;
-	border-radius: 10px;
+	width: 80px;
+	border-radius: 8px;
 	background-color: #bdadc4;
 	color: white;
 	padding: 5px;
 	border: 1px #EAD6F2;
   box-shadow: 1px 1px 3px #220745;
-	font-size: 20px;
+	font-size: 30px;
 
 
 }
-
+#i1{
+  width: 70px;
+	border-radius: 8px;
+	background-color: #bdadc4;
+	color: white;
+	padding: 5px;
+	border: 1px #EAD6F2;
+  box-shadow: 1px 1px 3px #22074500;
+  font-size: 30px;
+}
+.inmon{
+  width: 100px;
+	border-radius: 8px;
+	background-color: #bdadc4;
+	color: white;
+	padding: 5px;
+	border: 1px #EAD6F2;
+  box-shadow: 1px 1px 3px #220745;
+	font-size: 30px;
+}
