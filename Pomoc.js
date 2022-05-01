@@ -9,3 +9,5 @@ function add_r(i1) {
 	a = document.getElementById('i1');
 	a.value = a.value + i1;
 }
+
+

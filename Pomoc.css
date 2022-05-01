@@ -8,9 +8,14 @@
 .butpomoc{
   color: #fff;
   background-color: #7700bb;
-  width: 100px;
+  width: 20%;
   padding: 10px;
   font-size: 20px;
+  min-width: 80px;
+  border: none; 
+  outline: none;
+  border-radius:10px ;
+
 }
 .minmoney{
 	background-color: #b4b1bbc6;
@@ -116,6 +121,19 @@ input[type="text"]{
 	border: 1px #EAD6F2;
   box-shadow: 1px 1px 3px #220745;
 	font-size: 30px;
+}
+
+input[type="month"]{
+
+	max-width: 200px;
+  width: 40%;
+	border-radius: 8px;
+	background-color: #bdadc4;
+	color: white;
+	padding: 5px;
+	border: 1px #EAD6F2;
+  box-shadow: 1px 1px 3px #220745;
+	font-size: 20px;
 
 
 }
@@ -130,7 +148,9 @@ input[type="text"]{
   font-size: 30px;
 }
 .inmon{
-  width: 100px;
+  margin-left: 40%;
+  width: 60%;
+  max-width: 100px;
 	border-radius: 8px;
 	background-color: #bdadc4;
 	color: white;
@@ -138,4 +158,21 @@ input[type="text"]{
 	border: 1px #EAD6F2;
   box-shadow: 1px 1px 3px #220745;
 	font-size: 30px;
+}
+
+.numcard{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.ncard{
+  margin-right:10px ;
+}
+.m{
+  font-size: 20px;
+  margin-left:0%;
+}
+.m1{
+  font-size: 20px;
+  margin-left:40%;
 }
