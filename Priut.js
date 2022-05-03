@@ -32,6 +32,10 @@ function sizePic() {
  img = document.getElementById("pic");
  img.width = 60 + 20*size;
 }
+
+
+
+
 function NumMoney() {
   num = document.getElementById("num").value;
   print(num)
@@ -39,7 +43,6 @@ function NumMoney() {
   money.walue = 10*num;
  }
  
-
 
 
 

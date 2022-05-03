@@ -50,7 +50,7 @@
 	font-family: 'Roboto Mono', monospace;
   color: rgb(80, 78, 78);
   font-size: 20px;
-  margin-left: 5px;
+  margin-left: -30px;
 
 }
 
@@ -222,9 +222,26 @@ input[type="month"]{
   margin-left:-5%;
   color: rgb(80, 78, 78);
   margin-bottom: -15px;
+
 }
 
-.tel{
+.visit2{
+  width: 70%;
+  margin-left: 40% ;
+
+}
+
+#name1{
   margin-left: 5%;
-  width: 30%;
+  width: 60%;
+}
+
+#tel{
+  margin-left: 5%;
+  width: 60%;
+}
+
+#email{
+  margin-left: 5%;
+  width: 60%;
 }
