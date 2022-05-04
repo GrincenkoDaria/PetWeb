@@ -39,7 +39,8 @@
 }
 
 .visit{
-	margin: 10%;
+  margin-top: -35%;
+	margin-left: 60% ;
 	width: 30%;
   min-width: 600px;
 	border-radius: 10px;
@@ -49,7 +50,8 @@
 .time{
 	font-family: 'Roboto Mono', monospace;
   color: rgb(80, 78, 78);
-  font-size: 20px;
+  font-size: 18px;
+
   margin-left: -30px;
 
 }
@@ -227,7 +229,8 @@ input[type="month"]{
 
 .visit2{
   width: 70%;
-  margin-left: 40% ;
+  margin-left: 45% ;
+  margin-top: -35%;
 
 }
 
@@ -244,4 +247,13 @@ input[type="month"]{
 #email{
   margin-left: 5%;
   width: 60%;
+}
+
+
+#kontakt{
+  font-size: 17px;
+  margin-top: -20%;
+  color: rgb(80, 78, 78);
+  margin-bottom: -70px;
+  margin-left: 3%;
 }
