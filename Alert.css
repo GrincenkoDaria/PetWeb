@@ -1,0 +1,255 @@
+.money{
+  margin-top: -650px;
+	margin: 10%;
+	width: 30%;
+  min-width: 600px;
+	border-radius: 10px;
+  border: solid 5px #cccbce;
+  
+}
+
+.butpomoc{
+  color: #fff;
+  background-color: #7700bb;
+  width: 20%;
+  padding: 10px;
+  font-size: 20px;
+  min-width: 80px;
+  border: none; 
+  outline: none;
+  border-radius:10px ;
+  margin-top: 10px;
+  margin-left: 20%;
+
+}
+.butvisit{
+  color: #fff;
+  background-color: #7700bb;
+  width: 20%;
+  padding: 10px;
+  font-size: 20px;
+  min-width: 80px;
+  border: none; 
+  outline: none;
+  border-radius:10px ;
+  margin-top: 10px;
+  margin-left: 20%;
+
+}
+.minmoney{
+	background-color: #cccbce;
+  
+	border-radius: 0px 0px 5px 5px;
+	width: 100%;
+}
+.pomimg{
+	width: 15%;
+  min-width: 50px;
+  margin-left:75%;;
+  margin-top: -13 0px;
+}
+
+.pomimg2{
+  width: 30%;
+
+  
+  margin-left:70%;;
+}
+
+ 
+input[type=range] {
+  height: 20px;
+  -webkit-appearance: none;
+  margin: 2px 0;
+  width: 100%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+ 
+  height: 13px;
+  
+  box-shadow: 1px 1px 3px #000000;
+  background: #BDADC4;
+  border-radius: 17px;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 3px 3px 3px #000031;
+  border: solid 1px #dfdde6;
+    height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  background: #615399;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5.5px;
+}
+ 
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 16px;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #000000;
+  background: #BDADC4;
+  border-radius: 17px;
+ 
+}
+ 
+ 
+ 
+
+
+input[type="text"]{
+
+	width: 80px;
+	border-radius: 8px;
+	background-color: #bdadc4;
+	color: white;
+	padding: 5px;
+	border: 1px #EAD6F2;
+  box-shadow: 1px 1px 3px #220745;
+	font-size: 30px;
+}
+
+input[type="month"]{
+
+	max-width: 200px;
+  width: 40%;
+	border-radius: 8px;
+	background-color: #bdadc4;
+	color: white;
+	padding: 5px;
+	border: 1px #EAD6F2;
+  box-shadow: 1px 1px 3px #220745;
+	font-size: 20px;
+
+
+}
+#i1{
+  width: 70px;
+	border-radius: 8px;
+	background-color: #bdadc4;
+	color: white;
+	padding: 5px;
+	border: 1px #EAD6F2;
+  box-shadow: 1px 1px 3px #22074500;
+  font-size: 30px;
+}
+.inmon{
+  margin-left: 40%;
+  width: 60%;
+  max-width: 100px;
+	border-radius: 8px;
+	background-color: #bdadc4;
+	color: white;
+	padding: 5px;
+	border: 1px #EAD6F2;
+  box-shadow: 1px 1px 3px #220745;
+	font-size: 30px;
+}
+
+.numcard{
+  margin-left: 5%;
+
+}
+.carddate{
+  margin-left: 5%;
+
+}
+
+.kodcard{
+  margin-left: 5%;
+
+}
+
+.ncard{
+  margin-right:10px ;
+}
+.m{
+  font-size: 20px;
+  margin-left:-5%;
+  color: rgb(80, 78, 78);
+  margin-bottom: -15px;
+  margin-top: -10px;
+}
+.m1{
+  margin-top: -10px;
+  font-size: 20px;
+  margin-left:23%;
+  color: rgb(80, 78, 78);
+  margin-bottom: -15px;
+}
+
+.m2{
+  font-size: 20px;
+  margin-left:-5%;
+  color: rgb(80, 78, 78);
+  margin-bottom: -15px;
+
+}
+
+.visit2{
+  width: 70%;
+  margin-left: 50% ;
+  margin-top: -45%;
+
+}
+
+#name1{
+  margin-left: 5%;
+  width: 60%;
+}
+
+#tel{
+  margin-left: 5%;
+  width: 60%;
+}
+
+#email{
+  margin-left: 5%;
+  width: 60%;
+}
+
+
+#kontakt{
+  font-size: 17px;
+  margin-top: -100px;
+  color: rgb(80, 78, 78);
+  margin-bottom: -90px;
+  margin-left: 3%;
+}
+
+.time{
+	font-family: 'Roboto Mono', monospace;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  width:200px;
+
+
+}
+
+.time1{
+	background-color: #bdadc4;
+  width: 45%;
+  margin-left: 20px;
+  margin-top: 10%;
+  margin-bottom: 10px;
+  border-radius: 20px ;
+
+
+}
+
+
+
+.visit{
+  position: absolute;
+  margin-top: -40%;
+  margin-bottom: 10%;
+  margin-left: 1000px;
+	width: 30%;
+  min-width: 600px;
+	border-radius: 10px;
+  padding-top: 30px ;
+  background-color:  #cccbce;
+  height: 500px;
+
+}
