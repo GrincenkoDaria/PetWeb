@@ -84,22 +84,20 @@ footer{
 
 
 }
-.zobbut{
 
-	color: white;
-	margin-right: 5px;
-	width: 10%;
-	max-width: 160px;
-	min-width: 80px;
-	text-decoration: none;
-	font-size: 21.3px;
-	display: inline-block;
-	margin-top: 2px;
-	float: right;
-	height: 60px;
-	background-color: #bdadc4;
-	border-radius: 5 px;
+.laska{
+	display: flex;
+  justify-content: center;
+	width: 40%;
+  margin: 0 auto;
 
+}
+.projektimg{
+	width: 350px;
+	display: flex;
+  justify-content: center;
+	margin: 0 auto;
+	
 }
 
 .zobbut:nth-of-type(even) {
@@ -120,7 +118,22 @@ footer{
   color: #fff;
 	background-color: #332668;
 }
+.zobimg{
+	display: flex;
+  justify-content: center;
+  max-width: 40%;
+  margin: 0 auto;
 
+}
+#zobimg{
+	display: flex;
+  justify-content: center;
+  max-width: 15%;
+  margin: 0 auto;
+}
+#pet2{
+	background-color: #f4edfc;
+}
 
 
 li {
@@ -226,9 +239,7 @@ footer p {
 }
 
 
-.projektimg{
-	width: 350px;
-}
+
 
 
 .pomimg{
@@ -253,6 +264,25 @@ tr{
 }
 
 
+.pr{
+	background-color: #f4edfc;
+	width: 60%;
+
+  justify-content: center;
+
+  margin: 0 auto;
+
+}
+
+.pr1{
+	background-color: rgb(238, 238, 238);
+	width: 60%;
+
+  justify-content: center;
+
+  margin: 0 auto;
+
+}
 
 
 

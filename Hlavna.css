@@ -1,0 +1,182 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+*{
+	cursor:url('img/img.png'),pointer;
+}
+
+ 
+.navbut:nth-of-type(even) {
+	background-color: #332668;
+}
+
+.navbut:focus {
+  outline: none;
+  color: #fff;
+	background-color: #bdadc4;
+}
+
+.navimg {
+	margin: 5px 24px;
+	min-height: 5%;
+	max-width: 23%;
+	width: 210px;
+	border-radius: 5px;
+}
+
+
+a {
+text-align: center;
+color: #fff;
+text-decoration: none;
+display: block;
+ 
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 40px 10px 0;
+cursor: pointer;
+}
+
+ul{
+	display: flex;
+  justify-content: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.box {
+  border-radius: 4px;
+  box-shadow: 6px 7px 28px 0 rgba(16, 16, 16, 0.3);
+  min-height: 140px;
+  padding: 0 10px;
+  margin: 15px;
+  border-width: 3px;
+  float: left;
+  border: 5px solid #bdadc4;
+	font-weight : bolder;
+}
+
+.petnn{
+
+   margin: 15px;
+  border-width: 3px;
+	  border: 5px solid #bdadc400;
+	font-weight : bolder;
+	font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+		display: flex;
+  justify-content: center; 
+
+
+}
+.zobbut{
+
+	color: white;
+	margin-right: 5px;
+	width: 200px;
+	text-decoration: none;
+	font-size: 22px;
+	display: inline-block;
+	margin-top: 2px;
+
+	height: 70px;
+	background-color: #332668;
+	border-radius: 5px;
+
+}
+.btn{
+	color: white;
+
+	width: 110px;
+	text-decoration: none;
+	font-size: 22px;
+	display: inline-block;
+	margin-top: 2px;
+	height: 50px;
+	background-color: #332668;
+	border-radius: 5px;
+	margin-right: 10px;
+	text-align: center;
+	padding-top: 20px;
+	
+
+}
+
+
+footer, header{
+	background-color: #615399;
+
+	margin: auto;
+	min-width: 1800px;
+
+}
+header{
+	margin-bottom: 80px;
+
+}
+footer{
+
+	margin-top: 80px;
+
+
+}
+.navbut {
+  text-align: center;
+	color: white;
+	padding-top: 10px;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	background-color: #332668;
+	margin-right: 15px;
+	width:10%;
+	max-width: 160px;
+	min-width: 80px;
+	text-decoration: none;
+	font-size: 23px;
+	display: inline-block;
+	margin-top: 2px;
+	float: right;
+	height: 50px;
+	border-radius: 4px;
+
+
+}
+
+
+
+
+.Fotopet{
+  width: 100%;
+  max-width: 300px;
+}
+
+.hide {
+opacity: 1;
+animation-name: a1;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+width: 0px;
+height: 0px;
+}
+
+@keyframes a1{
+to {
+      opacity: 0;
+      min-height: 0; 
+      min-width: 0;
+      padding: 0;
+      margin: 0;
+      border: 0;
+} 
+}

@@ -1,19 +1,29 @@
-
-
-#pet1{
-	background-color: #ffffff;
-	min-height: 400px;
-	
-
+html, body {
+  box-sizing: border-box;
 }
 
-#pet2{
-	background-color: #bdadc4;
-	min-height: 400px;
-	padding-top: 50px;
-	margin-bottom: -80px;
-
+nav ul li {
+  display: inline-block;
+  padding: 10px 40px 10px 0;
+cursor: pointer;
 }
+.box {
+  border-radius: 4px;
+  box-shadow: 6px 7px 28px 0 rgba(16, 16, 16, 0.7);
+  min-height: 140px;
+  min-width: calc(22% - 28px);
+  padding: 0 10px;
+  margin: 15px;
+  border-width: 3px;
+  float: left;
+	border: 3px solid #bdadc4;
+}
+
+.Fotopet{
+	width: 350px;
+}
+
+ 
 .Pet{
 	margin: auto;
 	width: 50%;
@@ -32,119 +42,24 @@
 	clear: both;
 	*zoom: 1;
 }
-.Fotopet3 {
-	height: 30%;
-	width: 90%;
-}
-.Ppet3 {
 
-	width: 60%;
-}
-
-
-.Fotopet4{
-	width: 80%;
-}
-
-
-
-.Fotopet1{
-	float: left;
-	margin-top: 50px;
-	margin-left: 20px;
-  width: 70%;
-	margin-left: 50px;
-
-}
-.Ppet1{
-	display: block;
-	float: right;
-	margin-top:-35%;
-	width: 30%;
-	height: 30%;
-	margin-left: 30%;
-
-
-}
-.Fotopet2{
-	float: right;
-	margin-top: -50%;
-	margin-right: -80px;
-	width: 70%;
-	margin-top: -35%;
-	margin-right: -200px;
-
-}
-
-.Ppet2{
-	display: block;
-	float: left;
-	width: 30%;
-	margin-right: 60%;
-	height: 30%;
-	margin-right: 30%;
-	color: #ffffff;
-
-}
-
-#pet1{
-	background-color: #ffffff;
-	min-height: 500px;
-	padding-bottom: 20px;
-	min-height: 400px;
-
-
-}
-
-#pet2{
-	background-color: #bdadc4;
-	min-height: 500px;
-	padding: 20px;
-	min-height: 400px;
-	padding-top: 50px;
-	margin-bottom: -80px;
-
-}
-.Pet{
-
-}
-.Fotopet1 {
-	float: left;
-	width: 63%;
-	width: 70%;
-}
-.Ppet1 {
-	float: right;
-	width: 60%;
-}
-
-
-.Fotopet{
-	width: 40%;
-}
-
-
-
-.petn{
-	margin: auto;
-	width: 100%;
-}
-
-.petnn{
-	margin: auto;
-} 
-
-.zobimg{
-	width: 60%;
-}
-
-#zobimg{
-	height: 30%;
-}
-
-
-
-
+.hide {
+	opacity: 1;
+	animation-name: a1;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	}
+	
+	@keyframes a1{
+	to {
+				opacity: 0;
+				min-height: 0; 
+				min-width: 0;
+				padding: 0;
+				margin: 0;
+				border: 0;
+	} 
+	}
 
 
 
